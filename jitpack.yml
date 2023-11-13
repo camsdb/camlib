@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=PhotoEditor-PixelPhotoPro-buildGooglePlay.aar"
+  - mvn install:install-file $FILE -DgroupId=com.hmstus.sdktest -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
